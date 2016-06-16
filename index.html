@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Reloj</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href='https://fonts.goopleapis.com/css?family=Oswald:400,300,700'> después de mis estilos, para que funcione bien -->
+</head>
+<body>
+	<div class="container">
+
+		<div id="relojPrincipal" class="row">
+			<div class="visible-xs-12 visible-sm-12 hidden-md hidden-lg">
+				<div class="widget">
+					<div class="reloj">
+						<p id="horas" class="horas"></p>
+						<p>:</p>
+						<p id="minutos" class="minutos"></p>
+						<p>:</p>
+						<div class="caja-segundos">
+							<p id="ampm" class="ampm"></p>
+							<p id="segundos" class="segundos"></p>
+						</div>
+					</div>
+					<div class="fecha">
+						<p id="diaSemana" class="diaSemana"></p>
+						<p id="dia" class="dia"></p>
+						<p>de</p>
+						<p id="mes" class="mes"></p>
+						<p id="year" class="year"></p>
+					</div>
+				</div>			
+			</div>		
+		</div>
+
+		<div id="ciudadUno" class="row">
+
+			<div class="visible-xs-6 visible-sm-6 hidden-md hidden-lg">
+				<div class="widget">
+					<div id="nombreCiudadUno" class="ciudad">Chicago</div>
+				</div>
+			</div>
+
+			<div class="visible-xs-6 visible-sm-6 hidden-md hidden-lg">
+				<div class="widget">
+					<div class="reloj">
+						<p id="horasciudadUno" class="horas"></p>
+						<p>:</p>
+						<p id="minutosciudadUno" class="minutos"></p>
+						<p>:</p>
+						<div class="caja-segundos">
+							<p id="ampmciudadUno" class="ampm"></p>
+							<p id="segundosciudadUno" class="segundos"></p>
+						</div>
+					</div>
+				</div>			
+			</div>		
+		</div>
+
+		<div id="ciudadDos" class="row">
+
+			<div class="visible-xs-6 visible-sm-6 hidden-md hidden-lg">
+				<div class="widget">
+					<div id="nombreCiudadDos" class="ciudad">Chicago</div>
+				</div>
+			</div>
+
+			<div class="visible-xs-6 visible-sm-6 hidden-md hidden-lg">
+				<div class="widget">
+					<div class="reloj">
+						<p id="horasciudadDos" class="horas"></p>
+						<p>:</p>
+						<p id="minutosciudadDos" class="minutos"></p>
+						<p>:</p>
+						<div class="caja-segundos">
+							<p id="ampmciudadDos" class="ampm"></p>
+							<p id="segundosciudadDos" class="segundos"></p>
+						</div>
+					</div>
+				</div>			
+			</div>		
+		</div>
+
+
+
+
+	</div>
+
+	<script src="reloj.js"></script>
+</body>
+</html>
